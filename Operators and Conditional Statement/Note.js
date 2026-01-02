@@ -6,9 +6,13 @@ comment. */
 
 // -----Operators-----
 // Used to perform some opration on data
-// Arithmetic Operators
+
+// --Arithmetic Operators--
 // +, -, *, /
 // Modulus = %
 // Exponentiation = **
 // Increment = ++
 // Decrement = --
+
+// --Assignment Operators--
+// =, +=, -=, *=, /=,  %=, **=
