@@ -35,3 +35,16 @@
 // console.log("a = ", a);
 // a **= 4;
 // console.log("a = ", a);
+
+// --Comparison Operators--
+let a = 5;
+let b = 3;
+
+// console.log("a == b", a == b);
+// console.log("a != b", a != b);
+// console.log("a === b", a === b);
+// console.log("a !== b", a !== b);
+console.log("a > b", a > b);
+console.log("a < b", a < b);
+console.log("a >= b", a >= b);
+console.log("a <= b", a <= b);

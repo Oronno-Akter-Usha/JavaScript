@@ -16,3 +16,10 @@ comment. */
 
 // --Assignment Operators--
 // =, +=, -=, *=, /=,  %=, **=
+
+// --Comparison Operators--
+// Equal to ==
+// Equal to & data type ===
+// Not equal to !=
+// Not equal to & data type !==
+// >, >=, <, <=
