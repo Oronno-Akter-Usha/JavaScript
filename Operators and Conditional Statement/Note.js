@@ -23,3 +23,14 @@ comment. */
 // Not equal to !=
 // Not equal to & data type !==
 // >, >=, <, <=
+
+// --Logical Operators--
+// Logical AND &&
+// Logical OR ||
+// Logical NOT !
+
+// -----Conditional Statments-----
+// To implement some condition in the code
+// -if Statment
+// -if-else Statment
+// -else-if Statment
