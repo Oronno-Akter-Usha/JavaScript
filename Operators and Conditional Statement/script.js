@@ -104,20 +104,26 @@
 
 // else-if Statment
 
-let mode = "dark";
-let color;
+// let mode = "dark";
+// let color;
 
-if (mode === "dark") {
-  color = "black";
-} else if (mode === "blue") {
-  color = "blue";
-} else if (mode === "pink") {
-  color = "pink";
-} else {
-  color = "white";
-}
-console.log(color);
+// if (mode === "dark") {
+//   color = "black";
+// } else if (mode === "blue") {
+//   color = "blue";
+// } else if (mode === "pink") {
+//   color = "pink";
+// } else {
+//   color = "white";
+// }
+// console.log(color);
 
-if (mode === "dark") {
-  console.log(mode);
-}
+// if (mode === "dark") {
+//   console.log(mode);
+// }
+
+// --Ternary Opreator--
+let age = 17;
+
+let result = age > 18 ? "adult" : "not adult";
+console.log(result);

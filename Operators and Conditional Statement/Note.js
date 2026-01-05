@@ -34,3 +34,6 @@ comment. */
 // -if Statment
 // -if-else Statment
 // -else-if Statment
+
+// -----Ternary Opreator-----
+// condition ? true output : false output
