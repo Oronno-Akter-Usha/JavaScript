@@ -19,8 +19,15 @@
 // console.log(sum);
 
 // -----while loop-----
-let i = 1;
-while (i <= 6) {
-  console.log(i);
+// let i = 1;
+// while (i <= 6) {
+//   console.log(i);
+//   i++;
+// }
+
+// -----do while loop-----
+let i = 0;
+do {
+  console.log("i=", i);
   i++;
-}
+} while (i <= 10);
