@@ -26,8 +26,23 @@
 // }
 
 // -----do while loop-----
-let i = 0;
-do {
-  console.log("i=", i);
-  i++;
-} while (i <= 10);
+// let i = 0;
+// do {
+//   console.log("i=", i);
+//   i++;
+// } while (i <= 10);
+
+//-----for-of loop-----
+// let str = "HelloWorld";
+
+// for (let i of str) {
+//   console.log("i= ", i);
+// }
+
+let str = "JavaScript";
+let size = 0;
+for (let i of str) {
+  console.log("i =", i);
+  size++;
+}
+console.log("string size = ", size);
