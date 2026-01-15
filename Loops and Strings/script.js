@@ -39,10 +39,23 @@
 //   console.log("i= ", i);
 // }
 
-let str = "JavaScript";
-let size = 0;
-for (let i of str) {
-  console.log("i =", i);
-  size++;
+// let str = "JavaScript";
+// let size = 0;
+// for (let i of str) {
+//   console.log("i =", i);
+//   size++;
+// }
+// console.log("string size = ", size);
+
+// -----for-in loop-----
+
+let student = {
+  name: "Rahul",
+  age: 20,
+  cgpa: "7.5",
+  isPass: true,
+};
+
+for (let key in student) {
+  console.log("key=", key, "value=", student[key]);
 }
-console.log("string size = ", size);
