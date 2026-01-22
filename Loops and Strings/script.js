@@ -59,3 +59,9 @@
 // for (let key in student) {
 //   console.log("key=", key, "value=", student[key]);
 // }
+
+// Strings
+let str = "Hello World";
+
+console.log(str.length);
+console.log(str[0]);
