@@ -61,7 +61,25 @@
 // }
 
 // Strings
-let str = "Hello World";
+// let str = "Hello World";
 
+// console.log(str.length);
+// console.log(str[0]);
+
+// -----Template literals-----
+
+// let specialString = `This is a template literal`;
+// console.log(typeof specialString);
+
+// let obj = {
+//   item: "pen",
+//   price: 10,
+// };
+// console.log("the cost of", obj.item, "is", obj.price, "taka");
+// console.log(`the cost of ${obj.item} is ${obj.price} taka`);
+
+// let str = "Hello\nWorld";// \n = next line
+// console.log(str);
+
+let str = "Hello\tWorld"; // \t = tab space
 console.log(str.length);
-console.log(str[0]);
