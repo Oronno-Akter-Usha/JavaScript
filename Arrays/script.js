@@ -1,6 +1,13 @@
-let marks = [90, 78, 57, 65, 40];
-console.log(marks);
-console.log(marks.length); //property
+//-----Array-----
+// let marks = [90, 78, 57, 65, 40];
+// console.log(marks);
+// console.log(marks.length); //property
 
-let heroes = ["ironman", "thor", "hulk", "spiderman"];
-console.log(heroes);
+// let heroes = ["ironman", "thor", "hulk", "spiderman"];
+// console.log(heroes);
+
+// -----Indices----
+let marks = [90, 78, 57, 65, 40];
+marks[0] = 99;
+console.log(marks);
+console.log(marks[0]);
