@@ -25,8 +25,25 @@
 // }
 
 // -----Arrays Methods-----
+
 // ---push() : add to end---
-let foodItems = ["apple", "potato", "litchi", "tomato"];
+// let foodItems = ["apple", "potato", "litchi", "tomato"];
+// console.log(foodItems);
+// foodItems.push("chips", "burger");
+// console.log(foodItems);
+
+// ---pop(): delete from end & return
+// let foodItems = ["apple", "potato", "litchi", "tomato"];
+// console.log(foodItems);
+// let deletedItem = foodItems.pop();
+// console.log(foodItems);
+// console.log("deleted", deletedItem);
+
+// ---toString()---
+let foodItems = ["potato", "apple", "litchi", "tomato"];
+let marks = [98, 78, 56, 34];
 console.log(foodItems);
-foodItems.push("chips", "burger");
+console.log(foodItems.toString());
 console.log(foodItems);
+console.log(marks);
+console.log(marks.toString());
