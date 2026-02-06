@@ -49,7 +49,17 @@
 // console.log(marks.toString());
 
 // ---concat() : joins multiple arrays & returns result---
+// let marvelHeros = ["thor", "spiderman", "ironman"];
+// let dclHeros = ["superman", "batman"];
+// let heroes = marvelHeros.concat(dclHeros);
+// console.log(heroes);
+
+// ---unshift() : add to start
+// let marvelHeros = ["thor", "spiderman", "ironman"];
+// marvelHeros.unshift("antman");
+// console.log(marvelHeros);
+
+// ---shift() : delete from start & return---
 let marvelHeros = ["thor", "spiderman", "ironman"];
-let dclHeros = ["superman", "batman"];
-let heroes = marvelHeros.concat(dclHeros);
-console.log(heroes);
+marvelHeros.shift();
+console.log(marvelHeros);
