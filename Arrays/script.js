@@ -60,6 +60,12 @@
 // console.log(marvelHeros);
 
 // ---shift() : delete from start & return---
-let marvelHeros = ["thor", "spiderman", "ironman"];
-marvelHeros.shift();
+// let marvelHeros = ["thor", "spiderman", "ironman"];
+// marvelHeros.shift();
+// console.log(marvelHeros);
+
+// ---slice() : returns a piece of the array
+// slice(startIdx, endIdx)
+let marvelHeros = ["thor", "spiderman", "ironman", "antman", "Dr. Strange"];
 console.log(marvelHeros);
+console.log(marvelHeros.slice(1, 3));
